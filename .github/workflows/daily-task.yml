@@ -98,7 +98,7 @@ jobs:
         appid: ${{secrets.unicom_appid}}
       run: node index.js unicom --user=${user} --password=${password} --appid=${appid} --tryrun 
 
-   - name: Run unicom daily task4
+    - name: Run unicom daily task4
    
       env:
         user: ${{secrets.unicom_user4}}
